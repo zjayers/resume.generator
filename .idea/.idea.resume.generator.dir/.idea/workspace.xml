@@ -4,31 +4,114 @@
     <projectFile>resume.generator.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e523f06f-1fb9-4ee1-abc2-3490517a4dff" name="Default Changelist" comment="" />
+    <list default="true" id="e523f06f-1fb9-4ee1-abc2-3490517a4dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Domain/ApplicationDbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Configuration/ApplicationUserConfiguration.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Domain/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/dataSources/302d2a80-5bb9-4744-a33c-8a5fa6e0ac16.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/dataSources/302d2a80-5bb9-4744-a33c-8a5fa6e0ac16.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.resume.generator.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/OidcConfigurationController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/OidcConfigurationController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/ApplicationDbContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/EntityConfiguration/ApplicationUserConfiguration.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/00000000000000_CreateIdentitySchema.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/00000000000000_CreateIdentitySchema.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/00000000000000_CreateIdentitySchema.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201013828_AddsInitialColumnsToUserTable.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201013828_AddsInitialColumnsToUserTable.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201013828_AddsInitialColumnsToUserTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201013828_AddsInitialColumnsToUserTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201022133_AddsStateAndCityTables.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201022133_AddsStateAndCityTables.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201022133_AddsStateAndCityTables.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201022133_AddsStateAndCityTables.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201022642_CreateJobTitleTable.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201022642_CreateJobTitleTable.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/20201201022642_CreateJobTitleTable.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Migrations/20201201022642_CreateJobTitleTable.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/ApplicationUser.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/ApplicationUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/City.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/City.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/JobTitle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/JobTitle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Models/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Models/State.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Error.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Shared/_LoginPartial.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/_ViewImports.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db-shm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.db-wal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resume.generator.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/resume.generator.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resume.generator.csproj" />
-        <option value="$PROJECT_DIR$/Data/EntityConfiguration/AppUserConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Models/State.cs" />
-        <option value="$PROJECT_DIR$/Models/CityState.cs" />
-        <option value="$PROJECT_DIR$/Data/EntityConfiguration/CityStateConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Data/EntityConfiguration/StateConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Models/City.cs" />
-        <option value="$PROJECT_DIR$/Data/ApplicationDbContext.cs" />
-        <option value="$PROJECT_DIR$/Data/EntityConfiguration/ApplicationUserConfiguration.cs" />
-        <option value="$PROJECT_DIR$/Models/JobTitle.cs" />
-        <option value="$PROJECT_DIR$/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Snippet.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/State.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Template.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/Tool.cs" />
+        <option value="$PROJECT_DIR$/Domain/Models/ApplicationUser.cs" />
+        <option value="$PROJECT_DIR$/Domain/Repositories/ApplicationUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IApplicationUserRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IBulletRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ICityRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ICompanyRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IDatabaseRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IFrameworkRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IJobTitleRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ILanguageRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ISchoolRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ISnippetRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IStateRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/ITemplateRepository.cs" />
+        <option value="$PROJECT_DIR$/Domain/Interfaces/IToolRepository.cs" />
+        <option value="$PROJECT_DIR$/Controllers/CitiesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/BulletsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/CompaniesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/DatabasesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/FrameworksController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/JobTitlesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/LanguagesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/SchoolsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/SnippetsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/StatesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/TemplatesController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/ToolsController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/UsersController.cs" />
+        <option value="$PROJECT_DIR$/Controllers/BaseController.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/BaseDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/ApplicationUserDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/BulletDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/CityDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/CityWithoutStatesDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/CompanyDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/DatabaseDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/FrameworkDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/JobTitleDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/LanguageDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/SchoolDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/SnippetDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/StateDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/StateWithoutCitiesDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/TemplateDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Dto/ToolDto.cs" />
+        <option value="$PROJECT_DIR$/Domain/Repositories/BaseRepository.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1l2BNc2PlLGZYUabNX5DbknTWE6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
@@ -36,7 +119,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunManager" selected=".NET Launch Settings Profile.resume.generator">
     <configuration name="resume.generator" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -78,14 +161,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606785270693</updated>
-      <workItem from="1606785277075" duration="4172000" />
+      <workItem from="1606785277075" duration="4480000" />
+      <workItem from="1606844915377" duration="17374000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
@@ -99,13 +183,115 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="880" y="382" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.281.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1606785604143" />
-    <state x="937" y="477" width="685" height="486" key="find.popup" timestamp="1606787322360">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="674" y="433" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1606859816744">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state x="674" y="433" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606859816744" />
+    <state x="416" y="578" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1" timestamp="1606862180461">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state x="416" y="578" key="ANALYSIS_DLG_com.jetbrains.rider.actions.impl.cleanup.RiderCodeCleanupAction$actionPerformed$dlg$1/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606862180461" />
+    <state width="1608" height="496" key="GridCell.Tab.0.bottom" timestamp="1606861108133">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.0.bottom/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108133" />
+    <state width="1608" height="496" key="GridCell.Tab.0.center" timestamp="1606861108133">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.0.center/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108133" />
+    <state width="1608" height="496" key="GridCell.Tab.0.left" timestamp="1606861108132">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.0.left/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108132" />
+    <state width="1608" height="496" key="GridCell.Tab.0.right" timestamp="1606861108133">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.0.right/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108133" />
+    <state width="1608" height="496" key="GridCell.Tab.1.bottom" timestamp="1606861108134">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.1.bottom/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108134" />
+    <state width="1608" height="496" key="GridCell.Tab.1.center" timestamp="1606861108134">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.1.center/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108134" />
+    <state width="1608" height="496" key="GridCell.Tab.1.left" timestamp="1606861108133">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.1.left/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108133" />
+    <state width="1608" height="496" key="GridCell.Tab.1.right" timestamp="1606861108134">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.1.right/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108134" />
+    <state width="1608" height="496" key="GridCell.Tab.2.bottom" timestamp="1606861108135">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.2.bottom/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108135" />
+    <state width="1608" height="496" key="GridCell.Tab.2.center" timestamp="1606861108134">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.2.center/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108134" />
+    <state width="1608" height="496" key="GridCell.Tab.2.left" timestamp="1606861108134">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.2.left/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108134" />
+    <state width="1608" height="496" key="GridCell.Tab.2.right" timestamp="1606861108135">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.2.right/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108135" />
+    <state width="1608" height="496" key="GridCell.Tab.3.bottom" timestamp="1606861108136">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.3.bottom/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108136" />
+    <state width="1608" height="496" key="GridCell.Tab.3.center" timestamp="1606861108135">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.3.center/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108135" />
+    <state width="1608" height="496" key="GridCell.Tab.3.left" timestamp="1606861108135">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.3.left/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108135" />
+    <state width="1608" height="496" key="GridCell.Tab.3.right" timestamp="1606861108135">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.3.right/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108135" />
+    <state width="1608" height="496" key="GridCell.Tab.4.bottom" timestamp="1606861108136">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.4.bottom/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108136" />
+    <state width="1608" height="496" key="GridCell.Tab.4.center" timestamp="1606861108136">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.4.center/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108136" />
+    <state width="1608" height="496" key="GridCell.Tab.4.left" timestamp="1606861108136">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.4.left/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108136" />
+    <state width="1608" height="496" key="GridCell.Tab.4.right" timestamp="1606861108136">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="1608" height="496" key="GridCell.Tab.4.right/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606861108136" />
+    <state width="241" height="539" key="HiddenNamespacesPopup" timestamp="1606845809639">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state width="241" height="539" key="HiddenNamespacesPopup/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606845809639" />
+    <state x="328" y="446" key="RiderGenerateDialog" timestamp="1606860753169">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state x="328" y="446" key="RiderGenerateDialog/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606860753169" />
+    <state x="176" y="368" key="SettingsEditor" timestamp="1606847737932">
+      <screen x="46" y="25" width="2514" height="1415" />
+    </state>
+    <state x="176" y="368" key="SettingsEditor/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606847737932" />
+    <state x="966" y="494" width="685" height="486" key="find.popup" timestamp="1606855595982">
+      <screen x="46" y="25" width="2514" height="1415" />
     </state>
     <state x="937" y="477" width="685" height="486" key="find.popup/2560.281.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1606787322360" />
-    <state x="945" y="331" width="670" height="676" key="search.everywhere.popup" timestamp="1606788559223">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="966" y="494" width="685" height="486" key="find.popup/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606855595982" />
+    <state x="974" y="350" width="670" height="665" key="search.everywhere.popup" timestamp="1606862174336">
+      <screen x="46" y="25" width="2514" height="1415" />
     </state>
     <state x="945" y="331" width="670" height="676" key="search.everywhere.popup/2560.281.1920.1080/0.0.2560.1440@0.0.2560.1440" timestamp="1606788559223" />
+    <state x="974" y="350" width="670" height="665" key="search.everywhere.popup/2560.306.1920.1055/46.25.2514.1415@46.25.2514.1415" timestamp="1606862174336" />
   </component>
 </project>

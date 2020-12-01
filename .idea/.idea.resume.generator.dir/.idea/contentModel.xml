@@ -6,10 +6,9 @@
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/JetBrains/Rider2020.2/resharper-host/local/Transient/Rider/v202/SolutionCaches/_.19.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p=".git/info/exclude" t="IncludeRecursive" />
       <e p=".gitignore" t="Include" />
       <e p="app.db" t="Include" />
-      <e p="app.db-shm" t="Include" />
-      <e p="app.db-wal" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
@@ -117,13 +116,76 @@
         </e>
       </e>
       <e p="Controllers" t="Include">
+        <e p="BaseController.cs" t="Include" />
+        <e p="BulletsController.cs" t="Include" />
+        <e p="CitiesController.cs" t="Include" />
+        <e p="CompaniesController.cs" t="Include" />
+        <e p="DatabasesController.cs" t="Include" />
+        <e p="FrameworksController.cs" t="Include" />
+        <e p="JobTitlesController.cs" t="Include" />
+        <e p="LanguagesController.cs" t="Include" />
         <e p="OidcConfigurationController.cs" t="Include" />
-        <e p="WeatherForecastController.cs" t="Include" />
+        <e p="SchoolsController.cs" t="Include" />
+        <e p="SnippetsController.cs" t="Include" />
+        <e p="StatesController.cs" t="Include" />
+        <e p="TemplatesController.cs" t="Include" />
+        <e p="ToolsController.cs" t="Include" />
+        <e p="UsersController.cs" t="Include" />
       </e>
-      <e p="Data" t="Include">
+      <e p="Domain" t="Include">
         <e p="ApplicationDbContext.cs" t="Include" />
-        <e p="EntityConfiguration" t="Include">
+        <e p="Configuration" t="Include">
           <e p="ApplicationUserConfiguration.cs" t="Include" />
+          <e p="BulletConfiguration.cs" t="Include" />
+          <e p="CityConfiguration.cs" t="Include" />
+          <e p="CompanyConfiguration.cs" t="Include" />
+          <e p="DatabaseConfiguration.cs" t="Include" />
+          <e p="FrameworkConfiguration.cs" t="Include" />
+          <e p="JobTitleConfiguration.cs" t="Include" />
+          <e p="LanguageConfiguration.cs" t="Include" />
+          <e p="SchoolConfiguration.cs" t="Include" />
+          <e p="SnippetConfiguration.cs" t="Include" />
+          <e p="TemplateConfiguration.cs" t="Include" />
+          <e p="ToolConfiguration.cs" t="Include" />
+        </e>
+        <e p="DTO" t="Include">
+          <e p="ApplicationUserDto.cs" t="Include" />
+          <e p="BaseDto.cs" t="Include" />
+          <e p="BulletDto.cs" t="Include" />
+          <e p="CityDto.cs" t="Include" />
+          <e p="CityWithoutStatesDto.cs" t="Include" />
+          <e p="CompanyDto.cs" t="Include" />
+          <e p="DatabaseDto.cs" t="Include" />
+          <e p="FrameworkDto.cs" t="Include" />
+          <e p="JobTitleDto.cs" t="Include" />
+          <e p="LanguageDto.cs" t="Include" />
+          <e p="SchoolDto.cs" t="Include" />
+          <e p="SnippetDto.cs" t="Include" />
+          <e p="StateDto.cs" t="Include" />
+          <e p="StateWithoutCitiesDto.cs" t="Include" />
+          <e p="TemplateDto.cs" t="Include" />
+          <e p="ToolDto.cs" t="Include" />
+        </e>
+        <e p="Interfaces" t="Include">
+          <e p="IApplicationUserRepository.cs" t="Include" />
+          <e p="IBulletRepository.cs" t="Include" />
+          <e p="ICityRepository.cs" t="Include" />
+          <e p="ICompanyRepository.cs" t="Include" />
+          <e p="IDatabaseRepository.cs" t="Include" />
+          <e p="IFrameworkRepository.cs" t="Include" />
+          <e p="IJobTitleRepository.cs" t="Include" />
+          <e p="ILanguageRepository.cs" t="Include" />
+          <e p="IModel.cs" t="Include" />
+          <e p="IRepository.cs" t="Include" />
+          <e p="ISchoolRepository.cs" t="Include" />
+          <e p="ISnippetRepository.cs" t="Include" />
+          <e p="IStateRepository.cs" t="Include" />
+          <e p="ITemplateRepository.cs" t="Include" />
+          <e p="IToolRepository.cs" t="Include" />
+          <e p="IUnitOfWork.cs" t="Include" />
+        </e>
+        <e p="Mapping" t="Include">
+          <e p="MappingProfile.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
           <e p="00000000000000_CreateIdentitySchema.cs" t="Include" />
@@ -134,14 +196,59 @@
           <e p="20201201022133_AddsStateAndCityTables.Designer.cs" t="Include" />
           <e p="20201201022642_CreateJobTitleTable.cs" t="Include" />
           <e p="20201201022642_CreateJobTitleTable.Designer.cs" t="Include" />
+          <e p="20201201175918_SetUpSnippetsTable.cs" t="Include" />
+          <e p="20201201175918_SetUpSnippetsTable.Designer.cs" t="Include" />
+          <e p="20201201180452_RenameSnippetsTable.cs" t="Include" />
+          <e p="20201201180452_RenameSnippetsTable.Designer.cs" t="Include" />
+          <e p="20201201180554_RenameCompanyTable.cs" t="Include" />
+          <e p="20201201180554_RenameCompanyTable.Designer.cs" t="Include" />
+          <e p="20201201180617_RenameBulletTable.cs" t="Include" />
+          <e p="20201201180617_RenameBulletTable.Designer.cs" t="Include" />
+          <e p="20201201180825_RenameJobTitleTable.cs" t="Include" />
+          <e p="20201201180825_RenameJobTitleTable.Designer.cs" t="Include" />
+          <e p="20201201182314_AddsSkillTables.cs" t="Include" />
+          <e p="20201201182314_AddsSkillTables.Designer.cs" t="Include" />
+          <e p="20201201183919_AddsTemplateTable.cs" t="Include" />
+          <e p="20201201183919_AddsTemplateTable.Designer.cs" t="Include" />
+          <e p="20201201223406_RenameSchoolTable.cs" t="Include" />
+          <e p="20201201223406_RenameSchoolTable.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
-      </e>
-      <e p="Models" t="Include">
-        <e p="ApplicationUser.cs" t="Include" />
-        <e p="City.cs" t="Include" />
-        <e p="JobTitle.cs" t="Include" />
-        <e p="State.cs" t="Include" />
+        <e p="Models" t="Include">
+          <e p="ApplicationUser.cs" t="Include" />
+          <e p="BaseModel.cs" t="Include" />
+          <e p="Bullet.cs" t="Include" />
+          <e p="City.cs" t="Include" />
+          <e p="Company.cs" t="Include" />
+          <e p="Database.cs" t="Include" />
+          <e p="Framework.cs" t="Include" />
+          <e p="JobTitle.cs" t="Include" />
+          <e p="Language.cs" t="Include" />
+          <e p="School.cs" t="Include" />
+          <e p="Snippet.cs" t="Include" />
+          <e p="State.cs" t="Include" />
+          <e p="Template.cs" t="Include" />
+          <e p="Tool.cs" t="Include" />
+        </e>
+        <e p="Repositories" t="Include">
+          <e p="ApplicationUserRepository.cs" t="Include" />
+          <e p="BaseRepository.cs" t="Include" />
+          <e p="BulletRepository.cs" t="Include" />
+          <e p="CityRepository.cs" t="Include" />
+          <e p="CompanyRepository.cs" t="Include" />
+          <e p="DatabaseRepository.cs" t="Include" />
+          <e p="FrameworkRepository.cs" t="Include" />
+          <e p="JobTitleRepository.cs" t="Include" />
+          <e p="LanguageRepository.cs" t="Include" />
+          <e p="SchoolRepository.cs" t="Include" />
+          <e p="SnippetRepository.cs" t="Include" />
+          <e p="StateRepository.cs" t="Include" />
+          <e p="TemplateRepository.cs" t="Include" />
+          <e p="ToolRepository.cs" t="Include" />
+        </e>
+        <e p="UnitOfWork" t="Include">
+          <e p="UnitOfWork.cs" t="Include" />
+        </e>
       </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -165,8 +272,8 @@
         <e p="launchSettings.json" t="Include" />
       </e>
       <e p="resume.generator.csproj" t="IncludeRecursive" />
+      <e p="resume.generator.csproj.DotSettings" t="Include" />
       <e p="Startup.cs" t="Include" />
-      <e p="WeatherForecast.cs" t="Include" />
     </e>
   </component>
 </project>
